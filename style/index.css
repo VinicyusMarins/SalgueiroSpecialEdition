@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+}
+
+header{
+    padding: 12px;
+    border: 1px solid;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.box{
+    border: 1px solid rgba(0, 0, 0, 0.322);
+    height: 100px;
+    width: 350px;
+    margin-top: 20px;
+}
