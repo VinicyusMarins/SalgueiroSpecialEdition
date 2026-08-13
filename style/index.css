@@ -30,9 +30,34 @@ header{
     background-color: var(--cor6);
 }
 
+nav{
+    width: 98%;
+    padding: 8px;
+}
+
+.link{
+    display: inline-block;
+    width: 130px;
+    padding: 5px;
+    color: #fff;
+    text-decoration: none;
+    border: 1px solid #00000065;
+    border-radius: 8px;
+    box-shadow: 1px 1px 5px #0000006e;
+    text-align: center;
+}
+
+nav a:hover{
+    background-color: #393a41;
+    font-weight: bold;
+}
+
 h1{
+    margin-bottom: 8px;
+    padding: 5px;
     font-size: 20pt;
     text-align: center;
+    margin-bottom: 15px;
 }
 
 main{
