@@ -6,7 +6,7 @@
     --cor3: #0e2a71;
     --cor4: #6b81b5;
     --cor5: #aeb5c6;
-    --cor6: #60626d;
+    --cor6: #6a6b6e;
 }
 
 *{
@@ -71,7 +71,8 @@ main{
     border: 1px solid black;
     width: 80px;
     height: 80px;
-    border-radius: 15px; 
+    border-radius: 15px;
+    object-fit: cover;
 }
 
 .box{
@@ -80,7 +81,7 @@ main{
     align-items: center;
     border: 1px solid rgba(0, 0, 0, 0.322);
     border-radius: 15px;
-    min-height: 120px;
+    height: 100px;
     max-width: 350px;
     margin-top: 20px;
     background-color: var(--cor6);
@@ -97,7 +98,8 @@ main{
     font-size: 11.5pt;
 }
 .descricao{
-    font-size: 10pt;
+    font-size: 9.5pt;
+    width: 190px;
 }
 .status{
     font-size: 9.8pt;
