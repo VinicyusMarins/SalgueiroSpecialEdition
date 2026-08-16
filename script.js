@@ -3,6 +3,11 @@ let trofeus = [
         name: "Quantos são???",
         descricao: "Encontre todos os idolos de Gildevandes",
         img: "quantos_sao.jpg"
+    },
+    {
+        name: "Vão-se as latas, ficam-se as mãos",
+        descricao: "Cate latas com NPC Francisco",
+        img: "Lata.jpg"
     }
 ]
 
